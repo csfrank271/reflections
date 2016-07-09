@@ -3,3 +3,7 @@ When I want to collaborate with others or showcase my work.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 I might make some changes in my working directory whilst changes to the same parts of the files have been commited to GitHub. If the GitHub commits automatically pull, it may override my changes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A clone is a complete copy of a repository on a local device. A fork is the same except it only exists on GitHub and has additional features (mentions the creator of the original repository, shows how many people have forked). A branch is separate string of commits that can be used to modify code without affecting the base code.
+A fork would be used when wanted to modify somebody elses' work. A clone is used when wanting to make a copy of a personal repo or forked repo onto a local device for working. A branch is used to tryout new or experimental features that are not ready to be commited to the project.
