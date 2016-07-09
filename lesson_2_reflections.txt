@@ -8,3 +8,15 @@ The staging area offers value through allowing for revision before commiting fil
 
 How can you use the staging area to make sure you have one commit per logical change?
 Using the git status command, the contents of the staging area can be viewed, the git diff --staged command, and other commands, I can view the changes made in the project and determine how many logical changes they amount to.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would greatly assist in keeping my history organised when I want to test an experimental feature and make a large change that I am not yet ready to commit to the master branch. I can keep the file histories separate for different branches.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams explain the position of commits and branches, and how they all relate. They also clearly state the impact of certain changes.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is a single branch with both changes made. It is represented in the diagram as a single commit with reachability to both the merged branches because this clearly shows the history of the merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git automatic merging is quick and doesn't require additional effort from the user, however it may make changes which don't actually make sense and can introduce bugs. Manual merging takes time and can be tedious, but will assist in ensuring that only desired changes are kept in the merge.
